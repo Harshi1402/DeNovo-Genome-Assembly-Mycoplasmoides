@@ -1,6 +1,7 @@
 # De Novo Genome Assembly — Mycoplasmoides genitalium
 
 This repository contains scripts and documentation for performing a de novo genome assembly of *Mycoplasmoides genitalium* using short-read Illumina sequencing data. Raw FASTQ files are NOT included for ethical and privacy reasons.
+This repo is based on a UWA coursework project on bacterial genome assembly and annotation.
 
 The workflow follows the exact steps used in the project:
 FastQC → Fastp → Seqkit → SPAdes → Velvet → Prokka → BLAST validation.
